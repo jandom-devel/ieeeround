@@ -1,0 +1,17 @@
+2011-08-18  Gianluca Amato  <amato@sci.unich.it>
+
+	* NEWS, ChangeLog: new files
+	* DESCRIPTION: bumped the version number to 0.2-0.
+	* man/ieeeround.Rd, tests/Examples/ieeeround-Ex.Rout.save: Doc
+	fixes.
+	* src/ieeeround.c, src/ieeeround.h (r_fegetround, r_fesetround):
+	renamed from _r_fegetround and _r_fesetround so that they are more
+	easily accessed by R.
+	* NAMESPACE, R/ieeeround.R, R/zzz.R[DEL]: converted to use
+	namespace.
+
+2011-01-21  Gianluca Amato <amato@sci.unich.it>
+
+	* DESCRIPTION, R, R/ieeeround.R, R/zzz.R, man, man/ieeeround.Rd,
+	  src, src/ieeeround.c, src/ieeeround.h, tests, tests/Examples,
+	  tests/Examples/ieeeround-Ex.Rout.save: initial version 0.1-0.

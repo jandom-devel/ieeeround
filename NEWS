@@ -1,0 +1,12 @@
+ieeeround.R NEWS - History of user visible changes
+Copyright 2010, 2011 Gianluca Amato <amato@sci.unich.it>
+
+Version 0.2-0
+
+* converted to use namespaces
+* it should be faster
+
+Versione 0.2-10
+
+* initial release
+
