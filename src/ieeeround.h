@@ -4,5 +4,5 @@
  * Copyright 2010,2011 Gianluca Amato
  */
 
-void _r_fegetround(int *rounding_mode);
-void _r_fesetround(int *rounding_mode);
+void r_fegetround(int *rounding_mode);
+void r_fesetround(int *rounding_mode);

@@ -1,6 +1,6 @@
 Package: ieeeround
-Version: 0.1-0
-Date: 2011-01-20
+Version: 0.2-pre
+Date: 2011-08-18
 Title: Functions to set and get the IEEE rounding mode
 Description: A pair of functions for getting and setting the IEEE rounding 
   mode for floating point computations.

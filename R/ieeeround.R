@@ -10,12 +10,9 @@ FE.UPWARD <- 0x800
 FE.TOWARDZERO <- 0xc00
 
 fegetround <- function() {
-  x = .C("_r_fegetround",rounding.mode = integer(1), PACKAGE="ieeeround")
-  return(x$rounding.mode)
+  .C(r_fegetround, rounding.mode = integer(1))$rounding.mode
 }
 
 fesetround <- function(rounding.mode=FE.TONEAREST) {
-  x = .C("_r_fesetround", rounding.mode = as.integer(rounding.mode), PACKAGE="ieeeround")
-  return(x$rounding.mode)
+  .C(r_fesetround, rounding.mode = as.integer(rounding.mode))$rounding.mode
 }
-

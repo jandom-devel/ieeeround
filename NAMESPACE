@@ -1,0 +1,4 @@
+export( fegetround, fesetround )
+exportPattern( "FE.*" )
+useDynLib( ieeeround, r_fegetround, r_fesetround )
+

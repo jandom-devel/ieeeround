@@ -10,7 +10,7 @@
 
 /* #define DEBUG */
 
-void _r_fegetround(int *rounding_mode) 
+void r_fegetround(int *rounding_mode) 
 {
 #ifdef DEBUG
   warning("Starting _r_fegetround. Rounding mode input is %d\n",*rounding_mode);
@@ -21,7 +21,7 @@ void _r_fegetround(int *rounding_mode)
 #endif
 }
 
-void _r_fesetround(int *rounding_mode)
+void r_fesetround(int *rounding_mode)
 {
 #ifdef DEBUG
   warning("Starting _r_fesetround. Rounding mode input is %d\n",*rounding_mode);
