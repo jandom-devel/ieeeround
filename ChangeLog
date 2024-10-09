@@ -1,6 +1,7 @@
 2024-10-09  Gianluca Amato <gianluca.amato@unich.it>
 	* Update metadata
 	* Fix Rout.save files
+	* Register C functions
 
 2011-08-18  Gianluca Amato <amato@sci.unich.it>
 
