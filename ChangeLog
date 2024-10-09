@@ -1,4 +1,8 @@
-2011-08-18  Gianluca Amato  <amato@sci.unich.it>
+2024-10-09  Gianluca Amato <gianluca.amato@unich.it>
+	* Update metadata
+	* Fix Rout.save files
+
+2011-08-18  Gianluca Amato <amato@sci.unich.it>
 
 	* NEWS, ChangeLog: new files
 	* DESCRIPTION: bumped the version number to 0.2-0.
